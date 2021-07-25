@@ -1,0 +1,246 @@
+#App {
+    width: 100%;
+    height: 100vh;
+}
+
+.uploader {
+    width: 100%;
+    max-width: 330px;
+    height: 469px;
+    background-color: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    text-align: center;
+    padding: 28px 3vw;
+    margin: 0 auto;
+    transform: translateY(25%);
+}
+
+.uploader h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+
+}
+
+
+.uploader h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 15px;
+    color: grey;
+    text-align: center;
+    letter-spacing: -0.035em;
+
+
+}
+
+
+.dropbox {
+    max-width: 100%;
+    height: 218.9px;
+    background-color: #F6F8FB;
+    border-radius: 12px;
+    margin-top: 35px;
+    border: 1px dashed #97BEF4;
+    text-align: center;
+}
+
+.dropbox img {
+    margin-top: 30px;
+}
+
+.dropbox h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 18px;
+    letter-spacing: -0.035em;
+    color: #BDBDBD;
+}
+
+h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.035em;
+
+    /* Gray 4 */
+
+    color: #BDBDBD;
+}
+
+.uploadBtn {
+    width: 120px;
+    height: 40px;
+    left: 670.64px;
+    top: 705.39px;
+    color: #fff;
+    background: #2F80ED;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #A9A9A9;
+}
+
+#uploading {
+    width: 100%;
+    max-width: 420px;
+    height: 80px;
+    margin: 0 auto;
+    transform: translateY(150%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 36px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+
+}
+
+.wrapper h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+    /* Gray 2 */
+
+
+}
+
+.loading-bar {
+    display: flex;
+    height: 12px;
+    width: 100%;
+    box-shadow: inset 0px 0px 0px 1px #C8C8CD;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+@keyframes progress-animation {
+    0% {
+        width: 0%;
+    }
+
+    20% {
+        width: 10%;
+    }
+
+    40% {
+        width: 30%;
+    }
+
+    50% {
+        width: 60%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+.progress-bar {
+    display: flex;
+    height: 100%;
+    width: 90%;
+    background: #409be9;
+    animation: progress-animation 5s ease-in-out;
+}
+
+#uploaded h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.035em;
+
+    /* Gray 2 */
+
+    color: #4F4F4F;
+}
+
+.material-icons {
+    color: #219653;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
+.output-link {
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: left;
+    padding: 7px 0px 0px 10px;
+    position: relative;
+    background: #F6F8FB;
+    /* Gray 5 */
+
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.copyBtn {
+    position: absolute;
+    width: 100px;
+    height: 38px;
+    color: #fff;
+    background: #2F80ED;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    transform: translate(65%, -103%);
+}
